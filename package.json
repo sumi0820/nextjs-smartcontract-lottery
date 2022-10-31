@@ -10,6 +10,9 @@
     "lint:fix": "yarn lint --fix",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'"
   },
+  "engines": {
+    "node": "^14.15.0 || ^16.10.0 || >=18.0.0"
+  },
   "dependencies": {
     "@next/font": "^13.0.0",
     "@walletconnect/web3-provider": "^1.8.0",
